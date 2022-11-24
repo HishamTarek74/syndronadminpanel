@@ -1,0 +1,17 @@
+{
+    "trashed_admin": "App\\Models\\Admin",
+    "trashed_supervisor": "App\\Models\\Supervisor",
+    "trashed_customer": "App\\Models\\Customer",
+    "trashed_role": "App\\Models\\Role",
+    "trashed_account_promotion": "App\\Models\\AccountPromotion",
+    "trashed_filtered_word": "App\\Models\\FilteredWord",
+    "trashed_coupon": "App\\Models\\Coupon",
+    "trashed_point": "App\\Models\\Point",
+    "trashed_content_request": "App\\Models\\ContentRequest",
+    "trashed_order_request": "App\\Models\\OrderRequest",
+    "trashed_wallet": "App\\Models\\Wallet",
+    "trashed_shop_category": "App\\Models\\ShopCategory",
+    "trashed_policy": "App\\Models\\Policy",
+    "trashed_speciality": "App\\Models\\Speciality",
+    "trashed_shop_service": "App\\Models\\ShopService"
+}

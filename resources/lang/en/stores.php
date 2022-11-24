@@ -1,0 +1,62 @@
+<?php
+
+return [
+    'singular' => 'Stores',
+    'plural' => 'Stores',
+    'empty' => 'There are no Store yet.',
+    'count' => 'Stores Count.',
+    'search' => 'Search',
+    'select' => 'Select Stores',
+    'permission' => 'Manage Store',
+    'trashed' => 'Stores Trashed',
+    'perPage' => 'Results Per Page',
+    'filter' => 'Search for Stores',
+    'actions' => [
+        'list' => 'List All',
+        'create' => 'Create a new Stores',
+        'show' => 'Show Stores',
+        'edit' => 'Edit Stores',
+        'delete' => 'Delete Stores',
+        'options' => 'Options',
+        'save' => 'Save',
+        'filter' => 'Filter',
+    ],
+    'messages' => [
+        'created' => 'The Stores has been created successfully.',
+        'updated' => 'The Stores has been updated successfully.',
+        'deleted' => 'The Stores has been deleted successfully.',
+        'restored' => 'The Stores has been restored successfully.',
+    ],
+    'attributes' => [
+        'name' => 'Name',
+        'phone' => 'Phone',
+        'email' => 'Email',
+        'created_at' => 'The Date Of Join',
+        'old_password' => 'Old Password',
+        'password' => 'Password',
+        'password_confirmation' => 'Password Confirmation',
+        'type' => 'User Type',
+        'avatar' => 'Avatar',
+        'from' => 'From',
+    ],
+    'dialogs' => [
+        'delete' => [
+            'title' => 'Warning !',
+            'info' => 'Are you sure you want to delete the Stores?',
+            'confirm' => 'Delete',
+            'cancel' => 'Cancel',
+        ],
+        'restore' => [
+            'title' => 'Warning !',
+            'info' => 'Are you sure you want to restore the Stores?',
+            'confirm' => 'Restore',
+            'cancel' => 'Cancel',
+        ],
+        'forceDelete' => [
+            'title' => 'Warning !',
+            'info' => 'Are you sure you want to force delete the Stores?',
+            'confirm' => 'Force',
+            'cancel' => 'Cancel',
+        ],
+    ],
+];

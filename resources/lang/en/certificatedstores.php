@@ -1,0 +1,61 @@
+<?php
+
+return [
+    'singular' => 'Certificated Stores',
+    'plural' => 'Certificated Stores',
+    'empty' => 'There are no Store yet.',
+    'count' => 'Certificated Stores Count.',
+    'search' => 'Search',
+    'select' => 'Select Certificated Stores',
+    'permission' => 'Manage Store',
+    'trashed' => 'Certificated Stores Trashed',
+    'perPage' => 'Results Per Page',
+    'filter' => 'Search for Certificated Stores',
+    'actions' => [
+        'list' => 'List All',
+        'create' => 'Create a new Certificated Stores',
+        'show' => 'Show Certificated Stores',
+        'edit' => 'Edit Certificated Stores',
+        'delete' => 'Delete Certificated Stores',
+        'options' => 'Options',
+        'save' => 'Save',
+        'filter' => 'Filter',
+    ],
+    'messages' => [
+        'created' => 'The Certificated Stores has been created successfully.',
+        'updated' => 'The Certificated Stores has been updated successfully.',
+        'deleted' => 'The Certificated Stores has been deleted successfully.',
+        'restored' => 'The Certificated Stores has been restored successfully.',
+    ],
+    'attributes' => [
+        'name' => 'Name',
+        'phone' => 'Phone',
+        'email' => 'Email',
+        'created_at' => 'The Date Of Join',
+        'old_password' => 'Old Password',
+        'password' => 'Password',
+        'password_confirmation' => 'Password Confirmation',
+        'type' => 'User Type',
+        'avatar' => 'Avatar',
+    ],
+    'dialogs' => [
+        'delete' => [
+            'title' => 'Warning !',
+            'info' => 'Are you sure you want to delete the Certificated Stores?',
+            'confirm' => 'Delete',
+            'cancel' => 'Cancel',
+        ],
+        'restore' => [
+            'title' => 'Warning !',
+            'info' => 'Are you sure you want to restore the Certificated Stores?',
+            'confirm' => 'Restore',
+            'cancel' => 'Cancel',
+        ],
+        'forceDelete' => [
+            'title' => 'Warning !',
+            'info' => 'Are you sure you want to force delete the Certificated Stores?',
+            'confirm' => 'Force',
+            'cancel' => 'Cancel',
+        ],
+    ],
+];

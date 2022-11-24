@@ -1,0 +1,60 @@
+<?php
+
+return [
+    'singular' => 'Ticket',
+    'plural' => 'Tickets',
+    'empty' => 'There are no Tickets yet.',
+    'count' => 'Tickets Count.',
+    'search' => 'Search',
+    'select' => 'Select Ticket',
+    'permission' => 'Manage Tickets',
+    'trashed' => 'Tickets Trashed',
+    'perPage' => 'Results Per Page',
+    'filter' => 'Search for Ticket',
+    'actions' => [
+        'list' => 'List All',
+        'create' => 'Create a new Ticket',
+        'show' => 'Show Ticket',
+        'edit' => 'Edit Ticket',
+        'delete' => 'Delete Ticket',
+        'options' => 'Options',
+        'save' => 'Save',
+        'filter' => 'Filter',
+    ],
+    'messages' => [
+        'created' => 'The Ticket has been created successfully.',
+        'updated' => 'The Ticket has been updated successfully.',
+        'deleted' => 'The Ticket has been deleted successfully.',
+        'restored' => 'The Ticket has been restored successfully.',
+    ],
+    'attributes' => [
+        'name' => 'Ticket name',
+        "action" => "Action",
+        "Tickets" => "Tickets",
+        "description"=>'Description',
+        "user_type"=>'Customer Type',
+        'ticket_type'=> 'Type',
+        'created_at' => 'Created At',
+        'deleted_at' => 'Deleted At',
+    ],
+    'dialogs' => [
+        'delete' => [
+            'title' => 'Warning !',
+            'info' => 'Are you sure you want to delete the Ticket?',
+            'confirm' => 'Delete',
+            'cancel' => 'Cancel',
+        ],
+        'restore' => [
+            'title' => 'Warning !',
+            'info' => 'Are you sure you want to restore the Ticket?',
+            'confirm' => 'Restore',
+            'cancel' => 'Cancel',
+        ],
+        'forceDelete' => [
+            'title' => 'Warning !',
+            'info' => 'Are you sure you want to force delete the Ticket?',
+            'confirm' => 'Force',
+            'cancel' => 'Cancel',
+        ],
+    ],
+];

@@ -1,0 +1,60 @@
+<?php
+
+return [
+    'singular' => 'Services',
+    'plural' => 'Servicess',
+    'empty' => 'There are no Servicess yet.',
+    'count' => 'Servicess Count.',
+    'search' => 'Search',
+    'select' => 'Select Services',
+    'permission' => 'Manage Servicess',
+    'trashed' => 'Servicess Trashed',
+    'perPage' => 'Results Per Page',
+    'filter' => 'Search for Services',
+    'actions' => [
+        'list' => 'List All',
+        'create' => 'Create a new Services',
+        'show' => 'Show Services',
+        'edit' => 'Edit Services',
+        'delete' => 'Delete Services',
+        'options' => 'Options',
+        'save' => 'Save',
+        'filter' => 'Filter',
+    ],
+    'messages' => [
+        'created' => 'The Services has been created successfully.',
+        'updated' => 'The Services has been updated successfully.',
+        'deleted' => 'The Services has been deleted successfully.',
+        'restored' => 'The Services has been restored successfully.',
+    ],
+    'attributes' => [
+        'name' => 'Service name',
+        '%name%' => 'Services name',
+        'promotion_ads'=>'Ads Promotion ',
+        'promotion_account'=>'Account Promotion ',
+      "keyword" => "Services",
+      "%keyword%" => "Services",
+        'created_at' => 'Created At',
+        'deleted_at' => 'Deleted At',
+    ],
+    'dialogs' => [
+        'delete' => [
+            'title' => 'Warning !',
+            'info' => 'Are you sure you want to delete the Services?',
+            'confirm' => 'Delete',
+            'cancel' => 'Cancel',
+        ],
+        'restore' => [
+            'title' => 'Warning !',
+            'info' => 'Are you sure you want to restore the Services?',
+            'confirm' => 'Restore',
+            'cancel' => 'Cancel',
+        ],
+        'forceDelete' => [
+            'title' => 'Warning !',
+            'info' => 'Are you sure you want to force delete the Services?',
+            'confirm' => 'Force',
+            'cancel' => 'Cancel',
+        ],
+    ],
+];

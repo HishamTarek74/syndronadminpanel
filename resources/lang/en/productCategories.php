@@ -1,0 +1,60 @@
+<?php
+
+return [
+    'singular' => 'ProductsCategories',
+    'plural' => 'Products Categories',
+    'empty' => 'There are no ProductsCategories yet.',
+    'count' => 'Products Categories Count.',
+    'search' => 'Search',
+    'select' => 'Select ProductsCategories',
+    'permission' => 'Manage ProductsCategories',
+    'trashed' => 'ProductsCategories Trashed',
+    'perPage' => 'Results Per Page',
+    'filter' => 'Search for ProductsCategories',
+    'actions' => [
+        'list' => 'List All',
+        'create' => 'Create a new ProductsCategories',
+        'productCategories'=> 'ProductsCategories ',
+        'show' => 'Show ProductsCategories',
+        'edit' => 'Edit ProductsCategories',
+        'delete' => 'Delete ProductsCategories',
+        'options' => 'Options',
+        'save' => 'Save',
+        'filter' => 'Filter',
+    ],
+    'messages' => [
+        'created' => 'The ProductsCategories has been created successfully.',
+        'updated' => 'The ProductsCategories has been updated successfully.',
+        'deleted' => 'The ProductsCategories has been deleted successfully.',
+        'restored' => 'The ProductsCategories has been restored successfully.',
+    ],
+    'attributes' => [
+        'name' => 'ProductsCategories name',
+        '%name%' => 'ProductsCategories name',
+        'category_id' => 'Category',
+        'products'=> 'Products No.',
+        'options_count' => 'Options Count',
+        'created_at' => 'Created At',
+        'deleted_at' => 'Deleted At',
+    ],
+    'dialogs' => [
+        'delete' => [
+            'title' => 'Warning !',
+            'info' => 'Are you sure you want to delete the ProductsCategories?',
+            'confirm' => 'Delete',
+            'cancel' => 'Cancel',
+        ],
+        'restore' => [
+            'title' => 'Warning !',
+            'info' => 'Are you sure you want to restore the ProductsCategories?',
+            'confirm' => 'Restore',
+            'cancel' => 'Cancel',
+        ],
+        'forceDelete' => [
+            'title' => 'Warning !',
+            'info' => 'Are you sure you want to force delete the ProductsCategories?',
+            'confirm' => 'Force',
+            'cancel' => 'Cancel',
+        ],
+    ],
+];
