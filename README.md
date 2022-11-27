@@ -1,6 +1,7 @@
-# Sheraa
-## Site
-http://develop.sheraa.net/
+# AdminPanel
+## Syndron Dashboared
+
+- this protype for adminpanel
 
 ### Docker
 - run following commands to build docker and run app
